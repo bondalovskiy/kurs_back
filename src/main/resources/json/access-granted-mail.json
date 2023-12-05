@@ -1,0 +1,4 @@
+{
+  "subject": "Welcome to the Beta Program!",
+  "text": "Dear {fullname},\n\nWe are delighted to inform you that you have successfully joined the beta for this app with Spotify API integration. Thank you for your interest in our project!\n\nTo get started, please log in the app.\n\nBest regards,\nRoma"
+}
