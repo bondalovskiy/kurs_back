@@ -5,7 +5,7 @@ api:
         client-secret: 3b115fdfa80e4af09691a7ed79d60af2
         scope: user-read-recently-played,user-read-private,user-read-email,user-top-read,playlist-modify-public,playlist-modify-private,playlist-read-private,playlist-read-collaborative,ugc-image-upload
     matrix:
-        access-token: sk.eyJ1IjoiYm9uZGFsb3Zza2l5IiwiYSI6ImNscHF2cHUyeDAzem8ya244M25zeDJ0NXgifQ.DL2QSR4hPpBFaBx9OvDsZg
+        access-token: sk.eyJ1IjoiYm9uZGFsb3Zza2l5IiwiYSI6ImNscHU1dmJ6ZDBqaTMya3JsdnJveXNtcmcifQ.D3ddmHf8yMBy7Yv4-9LHSw
 
 # web
 spotapp:
