@@ -7,9 +7,11 @@ import com.bndlvsk.spotapp.service.LocationService;
 import com.bndlvsk.spotapp.service.MapAPIService;
 import com.bndlvsk.spotapp.service.UserService;
 import lombok.AllArgsConstructor;
+import org.springframework.beans.factory.annotation.Value;
 
 import java.util.*;
 import java.util.stream.Collectors;
+
 
 @AllArgsConstructor
 public class LocationServiceImpl implements LocationService {
@@ -77,7 +79,8 @@ public class LocationServiceImpl implements LocationService {
 
     @Override
     public String getMapAccessToken() {
-        String accessToken = System.getenv("MAP_API_PUBLIC_TOKEN");
+        //String accessToken = System.getenv("MAP_API_PUBLIC_TOKEN");
+        String accessToken = "pk.eyJ1IjoiYm9uZGFsb3Zza2l5IiwiYSI6ImNscHU2NDV1YjBoNHQyb29mMWRvN3R2NG0ifQ.Rmb86Q8WEVuUfhzooF3cBg";
         return "{\"token\":\"" + accessToken + "\"}";
     }
 }

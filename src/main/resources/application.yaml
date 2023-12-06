@@ -6,6 +6,7 @@ api:
         scope: user-read-recently-played,user-read-private,user-read-email,user-top-read,playlist-modify-public,playlist-modify-private,playlist-read-private,playlist-read-collaborative,ugc-image-upload
     matrix:
         access-token: sk.eyJ1IjoiYm9uZGFsb3Zza2l5IiwiYSI6ImNscHU1dmJ6ZDBqaTMya3JsdnJveXNtcmcifQ.D3ddmHf8yMBy7Yv4-9LHSw
+        #public token is in LocationServiceImpl
 
 # web
 spotapp:
